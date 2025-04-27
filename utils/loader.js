@@ -14,7 +14,7 @@ export const load = {
     loadSprite("coin", "./assets/sprites/Coin.png");
     loadSprite("bridge", "./assets/sprites/Bridge.png");
 
-    loadSprite("grass-tileset", "./assets/sprites/Grass_Tileset.png", {
+    loadSprite("grass-tileset", "./assets/sprites/grass_Tileset.png", {
       sliceX: 3,
       sliceY: 4,
       anims: {
@@ -29,7 +29,7 @@ export const load = {
         br: 8,
       },
     });
-    loadSprite("grass-oneway-tileset", "./assets/sprites/Grass_Oneway.png", {
+    loadSprite("grass-oneway-tileset", "./assets/sprites/grass_Oneway.png", {
       sliceX: 3,
       sliceY: 4,
       anims: {
